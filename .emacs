@@ -4,6 +4,7 @@
 (setq inhibit-startup-message t)  
 (global-linum-mode t)
 (electric-pair-mode 1)
+(setq make-backup-files nil)
 
 (load "./emacs-config/theme/current.el")
 (load "./emacs-config/extensions/evil.el")
