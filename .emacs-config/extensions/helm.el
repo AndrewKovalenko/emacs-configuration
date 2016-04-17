@@ -3,4 +3,4 @@
 (helm-autoresize-mode 1)
 					; shortcuts
 (define-key evil-normal-state-map ",be" 'helm-buffers-list)
-(define-key evil-normal-state-map "\C-p" 'helm-proctile)
+(define-key evil-normal-state-map "\C-p" 'helm-projectile)
