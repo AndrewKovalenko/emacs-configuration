@@ -2,7 +2,8 @@
 (setq package-list '(evil helm neotree auto-complete tern))
 
 ; list the repositories containing them
-(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
+(setq package-archives '(("melpa" . "http://melpa.org/packages/")
+                         ("elpa" . "http://tromey.com/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
 
