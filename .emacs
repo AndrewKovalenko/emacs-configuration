@@ -1,7 +1,6 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (load "~/.emacs-config/packages.el") ; check installed packages and install if missing
-(package-initialize)
 (setq inhibit-startup-message t)  
 (global-linum-mode t)
 (electric-pair-mode 1)
