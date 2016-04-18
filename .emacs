@@ -12,5 +12,5 @@
 (load "~/.emacs-config/extensions/helm.el")
 (load "~/.emacs-config/extensions/tern.el")
 (load "~/.emacs-config/extensions/neotree.el")
-(load "~/.emacs-config/syntax/less-css-mode.el")
+(load "~/.emacs-config/syntax/web-mode.el")
 
