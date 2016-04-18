@@ -1,5 +1,6 @@
 ; list the packages you want
-(setq package-list '(evil helm neotree auto-complete tern projectile helm-projectile web-mode))
+(setq package-list '(evil helm neotree auto-complete tern projectile helm-projectile
+		     web-mode tern tern-auto-complete))
 
 ; list the repositories containing them
 (setq package-archives '(("melpa" . "http://melpa.org/packages/")
